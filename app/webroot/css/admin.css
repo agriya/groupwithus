@@ -1,0 +1,1275 @@
+/* admin style is begin */
+/* Color Variables */
+/* round cornner mixin */
+/* common style is begin */
+div.admin-content {
+	color:#4d4d4d;
+	line-height:130%;
+	font-size:92%;
+	font-family:"trebuchet MS",Arial,Helvetica,sans-serif;
+}
+div.admin-content h1 {
+	margin:0.3% 0px 0px 0px;
+	padding:0px;
+}
+img {
+	vertical-align:middle;
+}
+address {
+	color:#4d4d4d;
+	font-style:normal;
+	font-size:11px;
+	margin:0 0 0 2px;
+}
+address span {
+	display:block;
+}
+h3 {
+	border-bottom:1px solid #d9d9d9;
+	color:#454545;
+	font-size:1.7em;
+	font-weight:400;
+	margin:0 0 15px;
+	padding:10px;
+}
+h3.location-title {
+	color:#36404b;
+}
+div.item-purchased-user-map {
+	width:100%;
+	height:400px;
+}
+div.setting-details-info h3 {
+	padding:1% 0px 1% 0%;
+	border:none;
+	font-size:1.3em;
+	font-weight:bold;
+}
+div.setting-details-info h3 a {
+	font-size:100%;
+}
+a {
+	color:#24baa3;
+	text-decoration:none;
+}
+a:hover {
+	color:black;
+}
+h5 {
+	font-size:95%;
+	color:#00b5c8;
+	padding:0px 0 0 0px;
+}
+h5 a {
+	font-size:11px;
+}
+div.admin-content-block {
+	width:100%;
+	background:url(../img/admin-bg.png) repeat-x left top;
+	font-size:90%;
+	min-height:600px;
+}
+div.bgimg-input-block {
+	position:relative;
+}
+div.bg-img-subscription {
+	height:60px;
+	left:129px;
+	position:absolute;
+	top:-2px;
+	width:60px;
+}
+div#header {
+	margin:0% 0% 0.5% 0%;
+}
+.header-bottom-content {
+	margin-bottom:15px;
+	padding:6px 0 4px;
+}
+div#main {
+	font-size:83%;
+}
+table.list {
+	width:100%;
+	margin:0px;
+}
+table.list span.info {
+	margin:0px;
+}
+.admin-container-24 div.dashboard-side2 {
+	width:20.833%;
+}
+.admin-container-24 div.dashboard-side2 .ribbon-inner {
+	font-size: 0.9em;
+}
+/* menu style is begin */
+ul.admin-links {
+	padding:10px 6px 5px;
+}
+ul.admin-links>li {
+	float:left;
+	margin:0px 1% 0px 0px;
+	position:relative;
+	font-size:82%;
+	z-index:10000;
+	width:10%;
+}
+ul.admin-links li span {
+	display:block;
+	cursor:pointer;
+	position:relative;
+	z-index:10000;
+	height:84px;
+}
+ul.admin-links li span.sub-link-info {
+	height:auto;
+	color:#dedede;
+	font-size:10px;
+	margin:0px 15px;
+}
+span.menu-center {
+	color:white;
+	font-size:90%;
+	font-weight:bold;
+}
+span.dashboard {
+	background:url("../img/admin-sprite.png") no-repeat center -2917px;
+}
+span.admin-users {
+	background:url("../img/admin-sprite.png") no-repeat center -9954px;
+}
+span.admin-merchants {
+	background:url("../img/admin-sprite.png") no-repeat center -1064px;
+}
+span.admin-items {
+	background:url("../img/admin-sprite.png") no-repeat center -1644px;
+}
+span.admin-subscriptions {
+	background:url("../img/admin-sprite.png") no-repeat center -3891px;
+}
+span.admin-payment {
+	background:url("../img/admin-sprite.png") no-repeat center -3672px;
+}
+span.admin-charity {
+	background:url("../img/admin-sprite.png") no-repeat center -5033px;
+}
+span.admin-topics {
+	background:url("../img/admin-sprite.png") no-repeat center -5580px;
+}
+span.admin-settings {
+	background:url("../img/admin-sprite.png") no-repeat center -3460px;
+}
+span.admin-masters {
+	background:url("../img/admin-sprite.png") no-repeat center -4623px;
+}
+ul.admin-links>li span.amenu-right {
+	padding:0px 10px 0px 2px;
+	margin:0px 0px 0px 10px;
+}
+ul.admin-links>li.admin-active span.amenu-left {
+	background:url("../img/admin-sprite.png") no-repeat 1px -10537px;
+}
+ul.admin-links>li.admin-active span.amenu-right {
+	background:url("../img/admin-sprite.png") no-repeat right -10620px;
+}
+ul.admin-links>li span.menu-center {
+	padding:56px 12px 0px 12px;
+	text-align:center;
+	height:25px;
+}
+ul.admin-links>li:hover span.amenu-left,ul.admin-links>li.admin-active:hover span.amenu-left {
+	background:url(../img/admin-sprite.png) no-repeat left -10731px;
+}
+ul.admin-links>li:hover span.amenu-right,ul.admin-links>li.admin-active:hover span.amenu-right {
+	background:url(../img/admin-sprite.png) no-repeat right -10856px;
+}
+ul.admin-links>li span.menu-center em {
+	font-style:normal;
+	display:block;
+	padding:0.5% 0% 0% 0%;
+	font-size:1.2em;
+}
+ul.admin-links li div.admin-sub-block {
+	position:absolute;
+	width:287%;
+	z-index:1;
+	display:none;
+	width:230px;
+	background:url(../img/bg-menu.png) repeat right top;
+}
+ul.admin-links li.masters-block div.admin-sub-block {
+	width:384px;
+}
+ul.admin-links li.setting-masters-block div.admin-sub-block {
+	width:468px;
+}
+ul.admin-links li.setting-masters-block ul.admin-sub-links li.admin-sub-links-right {
+	width:206px;
+}
+ul.admin-links li.setting-masters-block ul.admin-sub-links li.admin-sub-links-left {
+	width:220px;
+}
+ul.admin-links li.setting-masters-block div.admin-sub-block ul ul {
+	border:none;
+}
+ul.admin-links li.masters-block div.admin-sub-block ul ul {
+	border:none;
+}
+ul.admin-sub-links li.admin-sub-links-left {
+	float:left;
+	width:170px;
+	margin:0px 10px 0px 0px;
+	padding:0 10px;
+	border-right:1px solid #dedede;
+}
+ul.admin-sub-links li.admin-sub-links-right {
+	float:left;
+	width:170px;
+}
+ul.admin-links li.no-bor div.admin-sub-block {
+	left:0px;
+	top:83px;
+}
+ul.admin-links li.masters div.admin-sub-block {
+	right:0px;
+	top:83px;
+}
+ul.admin-links li div.admin-sub-lblock {
+	background:url(../img/menu-left-repeat.png) repeat-y top left;
+}
+ul.admin-links li div.admin-sub-rblock {
+	background:url(../img/menu-right-repeat.png) repeat-y top right;
+}
+ul.admin-links li div.admin-sub-cblock {
+	background:#77b931;
+	border-left:1px solid #aae869;
+	border-right:1px solid #aae869;
+}
+ul.admin-links li div.admin-top-lblock {
+	border-left:1px solid #aae869;
+	background:#77b931;
+	padding:0 0 0 10px;
+}
+ul.admin-links li div.admin-top-rblock {
+	background:url(../img/rounded-corner-sprite.png) no-repeat right -330px;
+	border:0;
+	padding:0 10px 0 0;
+}
+ul.admin-links li div.admin-top-cblock {
+	background:#77b931;
+	border-top:1px solid #aae869;
+	height:9px;
+}
+ul.admin-links li.masters-block div.admin-top-lblock {
+	background:url(../img/rounded-corner-sprite.png) no-repeat left -220px;
+	border:0;
+}
+ul.admin-links li.masters-block div.admin-top-rblock {
+	border-right:1px solid #aae869;
+	background:#77b931;
+}
+ul.admin-links li div.admin-bot-lblock {
+	background:url(../img/rounded-corner-sprite.png) no-repeat left top;
+	padding:0 0 0 10px;
+}
+ul.admin-links li div.admin-bot-rblock {
+	background:url(../img/rounded-corner-sprite.png) no-repeat right -110px;
+	padding:0 10px 0 0;
+}
+ul.admin-links li div.admin-bot-cblock {
+	background:#77b931;
+	border-bottom:1px solid #aae869;
+	height:9px;
+}
+ul.admin-links li:hover div.admin-sub-block {
+	display:block;
+}
+ul.admin-links li div.admin-sub-block ul {
+	margin:0;
+	padding:10px 0;
+}
+ul.admin-links li div.admin-sub-block ul li.merchant-info a,ul.admin-links li div.admin-sub-block ul li.merchant-info span {
+	display:inline;
+}
+ul.admin-links li div.admin-sub-block ul ul {
+	border-top:none;
+	padding:0px;
+	border-bottom:1px solid #e3e3e3;
+}
+ul.admin-links li div.admin-sub-block ul h4 {
+	padding:10px 10px 4px 10px;
+	font-size:14px;
+	color:#FFD756;
+}
+ul.admin-links li div.admin-sub-block ul h4.setting-title {
+	text-align:center;
+}
+ul.admin-links li div.admin-sub-block ul li a {
+	color:white;
+	display:block;
+	font-size:14px;
+	padding:8px 0 8px 15px;
+	border-top:1px solid #e3e3e3;
+}
+ul.admin-links li div.admin-sub-block ul li:first-child>a {
+	border-top:none;
+}
+ul.admin-links li div.admin-sub-block ul li.setting-overview a {
+	padding:8px 10px 8px 25px;
+	background:url("../img/admin-sprite.png") no-repeat -15px -3582px;
+}
+ul.admin-links li div.admin-sub-block ul li.customize-subscription a {
+	background:url("../img/admin-sprite.png") no-repeat scroll -4px -1445px transparent;
+}
+ul.admin-links li div.admin-sub-block ul li.setting-overview1 a {
+	float:right;
+	font-size:13px;
+	font-weight:bold;
+	margin:0 10px 0 0;
+}
+ul.admin-links li div.admin-sub-block ul li.setting-overview a:hover {
+	background:#f8437a url(../img/admin-sprite.png) no-repeat -15px -3582px;
+}
+ul.admin-links li div.admin-sub-block ul li.customize-subscription a:hover {
+	background:#f8437a url("../img/admin-sprite.png") no-repeat scroll -4px -1445px;
+}
+ul.admin-links li div.admin-sub-block ul li a:hover,ul.admin-links li div.admin-sub-block ul li.active a {
+	background:#f8437a;
+}
+ul.admin-menu {
+	float:right;
+	width:auto;
+}
+ul.admin-menu>li {
+	float:left;
+	margin:4px 5px 0px 11px;
+}
+ul.admin-menu li a {
+	color:#b0b0b0;
+	font-size:90%;
+}
+ul.admin-menu li.view-site a,ul.admin-menu li.logout a,ul.admin-menu li:hover a,ul.admin-menu li.active a {
+	color:white;
+}
+ul.admin-menu li.view-site a:hover,ul.admin-menu li.logout a:hover {
+	color:#afafaf;
+}
+ul.admin-menu li.view-site {
+	margin:4px 18px 0px 11px;
+}
+ul.admin-dashboard-links li small {
+	font-size:9px;
+	line-height:14px;
+	margin:0px 0px 0px 4px;
+}
+div.admin-content form.language-form {
+	float:right;
+	margin:0.5% 0px 3% 0px;
+}
+div.admin-content form.language-form label {
+	font-size:11px;
+}
+p.admin-welcome-info {
+	font-size:97%;
+	font-weight:bold;
+	padding-top:6px;
+}
+div.admin-content h1 a {
+	color:#fefefe;
+}
+div.admin-content h1 a:hover {
+	color:#00B5C8;
+}
+div.admin-content h1 a span {
+	font-weight:normal;
+	font-size:81%;
+	margin:0% 0% 0% 0.8%;
+}
+div.admin-content form.search-form {
+	width:100%;
+}
+div.admin-content div.add-block1 {
+	padding:13px 0% 10px 10px;
+	float:left;
+}
+div.admin-center-block {
+	background:white;
+	margin:0px 0px 10px 0px;
+}
+div.admin-side1-tl {
+	background:url(../img/rounded-corner-sprite.png) no-repeat left -3697px;
+}
+div.admin-side1-tr {
+	background:url(../img/rounded-corner-sprite.png) no-repeat right -3816px;
+}
+div.admin-side1-tc {
+	background:url(../img/rounded-corner-sprite.png) repeat-x left -3945px;
+	height:39px;
+	margin:0px 4px;
+}
+div.page-count-block .paging-count {
+	padding:13px 0px 0% 0%;
+}
+div.paging-info-block .paging-count {
+	padding:0px 0px 0% 0%;
+}
+div.ui-tabs div.page-count-block .paging-count {
+	padding:13px 0px 0% 0%;
+}
+.paging-count {
+	font-size:100%;
+	padding:0% 0px 0% 0%;
+	white-space:nowrap;
+}
+div.dashboard-side2 h2 {
+	font-size:130%;
+	font-weight:bold;
+}
+ul.admin-dashboard-links {
+	margin:0.1% 0px 0px 2.5%;
+}
+ul.admin-dashboard-links li {
+	padding:2% 0px;
+}
+ul.admin-dashboard-links li.version-info {
+	font-weight:bold;
+	font-size:98%;
+}
+ul.admin-dashboard-links li.version-info span {
+	font-weight:normal;
+}
+ul.admin-dashboard-links li a {
+	background:url(../img/admin-sprite.png) no-repeat left -10320px;
+	padding:0% 0% 0% 4%;
+}
+ul.setting-links {
+	margin:1% 0px 0px 2%;
+}
+ul.setting-links li {
+	border-bottom:1px solid #dedede;
+	padding:1% 0% 1% 0%;
+	margin:0% 1% 0% 0%;
+	min-height:114px;
+}
+ul.setting-links li div.setting-details-info {
+	padding:0px 0px 31px 100px;
+	min-height:48px;
+}
+ul.setting-links li div.setting-details-info1 {
+	padding:0px 0px 31px 80px;
+}
+ul.setting-links li div.setting-category-System {
+	background:url(../img/admin-sprite.png) no-repeat 8px -8263px;
+}
+ul.setting-links li div.setting-category-Developments {
+	background:url(../img/admin-sprite.png) no-repeat 5px -1917px;
+}
+ul.setting-links li div.setting-category-SEO {
+	background:url(../img/admin-sprite.png) no-repeat 6px -7334px;
+}
+ul.setting-links li div.setting-category-Search {
+	background:url(../img/admin-sprite.png) no-repeat 5px -9372px;
+}
+ul.setting-links li div.setting-category-Regional {
+	background:url(../img/admin-sprite.png) no-repeat 25px -6154px;
+}
+ul.setting-links li div.setting-category-Account {
+	background:url(../img/admin-sprite.png) no-repeat 14px -5px;
+}
+ul.setting-links li div.setting-category-People {
+	background:url(../img/admin-sprite.png) no-repeat 5px -7566px;
+}
+ul.setting-links li div.setting-category-Barcode {
+	background:url(../img/admin-sprite.png) no-repeat 5px -6487px;
+}
+ul.setting-links li div.setting-category-Wallet {
+	background:url(../img/admin-sprite.png) no-repeat 5px -9794px;
+}
+ul.setting-links li div.setting-category-Item {
+	background:url(../img/admin-sprite.png) no-repeat 25px -1534px;
+}
+ul.setting-links li div.setting-category-Payment {
+	background:url(../img/admin-sprite.png) no-repeat 10px -5187px;
+}
+ul.setting-links li div.setting-category-Invite {
+	background:url(../img/admin-sprite.png) no-repeat 5px -7830px;
+}
+ul.setting-links li div.Privacy {
+	background:url(../img/admin-sprite.png) no-repeat 5px -9605px;
+}
+ul.setting-links li div.setting-category-Referrals {
+	background:url(../img/admin-sprite.png) no-repeat 25px -5803px;
+}
+ul.setting-links li div.setting-category-Company {
+	background:url(../img/admin-sprite.png) no-repeat 5px -7112px;
+}
+ul.setting-links li div.setting-category-Twitter {
+	background:url(../img/admin-sprite.png) no-repeat 5px -9274px;
+}
+ul.setting-links li div.setting-category-Google {
+	background:url(../img/admin-sprite.png) no-repeat 5px -8159px;
+}
+ul.setting-links li div.setting-category-Bitly {
+	background:url(../img/admin-sprite.png) no-repeat 5px -6640px;
+}
+ul.setting-links li div.setting-category-Mail {
+	background:url(../img/admin-sprite.png) no-repeat 5px -8699px;
+}
+ul.setting-links li div.setting-category-Affiliate {
+	background:url(../img/admin-sprite.png) no-repeat 20px -226px;
+}
+ul.setting-links li div.setting-category-Mobile {
+	background:url(../img/admin-sprite.png) no-repeat 20px -500px;
+}
+ul.setting-links li div.setting-category-Widget {
+	background:url(../img/admin-sprite.png) no-repeat 41px -10187px;
+}
+ul.setting-links li div.setting-category-Friends {
+	background:url(../img/admin-sprite.png) no-repeat 17px -2140px;
+}
+ul.setting-links li div.setting-category-Third {
+	background:url(../img/admin-sprite.png) no-repeat 18px -359px;
+}
+ul.setting-links li div.setting-category-CDN {
+	background:url(../img/admin-sprite.png) no-repeat 20px -942px;
+}
+ul.setting-links li div.setting-category-Module {
+	background:url(../img/admin-sprite.png) no-repeat 23px -4876px;
+}
+ul.setting-links li div.setting-category-Messages {
+	background:url(../img/admin-sprite.png) no-repeat 7px -8631px;
+}
+ul.setting-links li div.setting-category-Charity {
+	background:url(../img/admin-sprite.png) no-repeat 25px -780px;
+}
+ul.setting-links li div.setting-category-Foursquare {
+	background:url(../img/admin-sprite.png) no-repeat 5px -7704px;
+}
+ul.setting-links li div.setting-category-Gift {
+	background:url(../img/admin-sprite.png) no-repeat 5px -7996px;
+}
+div#settings-admin_index ul.setting-links li div.payment-transaction-log {
+	background:url(../img/admin-sprite.png) no-repeat 6px -5322px;
+}
+ul.setting-links li div.payment-transaction-log {
+	background:url(../img/admin-sprite.png) no-repeat 6px -5322px;
+}
+ul.setting-links li div.mass-payment {
+	background:url(../img/admin-sprite.png) no-repeat 6px -4524px;
+}
+ul.setting-links li div.paypal-docapture {
+	background:url(../img/admin-sprite.png) no-repeat 7px -5449px;
+}
+ul.setting-links li div.authorizenet-docapture {
+	background:url(../img/admin-sprite.png) no-repeat 8px -649px;
+	padding:0px 0px 31px 90px;
+}
+ul.setting-links li div.debug-error {
+	background:url(../img/admin-sprite.png) no-repeat 15px -1782px;
+}
+ul.setting-links li:hover {
+	border-bottom:1px solid #dedede;
+	background:#f4f9fc;
+}
+ul.setting-links li a {
+	font-size:95%;
+}
+form.search-form div.date-time {
+	width:182px;
+}
+form.search-form div.end-date-time-block {
+	width:187px;
+}
+div#transactions-admin_index form.search-form div.submit {
+	margin: 5px 5px 0px 0px;
+}
+/**footer style begin*/
+#footer {
+	font-size:11px;
+}
+#agriya {
+	border-top:1px solid #C1C5C7;
+	margin:25px auto 0;
+	padding:10px 0;
+	float:none;
+	width:auto;
+}
+.powered span {
+	float:left;
+	margin:0 2px;
+}
+div#transactions-admin_index .time-desc {
+	margin:8px 0px 0px 52px;
+}
+div#transactions-admin_index div.end-date-time-block .time-desc {
+	margin:8px 0px 0px 44px;
+}
+form#TransactionAdminIndexForm div.date-time-block {
+	float:left;
+	margin:0.1% 0px 0px 0px;
+	z-index:0;
+	position:static;
+}
+form#TransactionAdminIndexForm div.mapblock-info {
+	float:left;
+}
+form#TransactionAdminIndexForm div.mapblock-info div.autocompleteblock ul.ui-autocomplete {
+	left:8px !important;
+}
+form#CurrencyEditForm table.list div.text input {
+	margin:0px 0px 0px 0px;
+}
+form.normal div.textarea textarea.email-content {
+	height:300px;
+	width:530px;
+}
+dl.list dt,dl.list dd {
+	font-size:98%;
+}
+#translations-admin_manage dl.list dt {
+	font-weight:bold;
+}
+form#TransactionAdminIndexForm div.date-time-block div.end-date-time-block {
+	z-index:0;
+}
+form.normal div.admin-select-block div.select {
+	padding:0px;
+	margin:0px;
+}
+form.normal div.admin-select-block div.select select {
+	padding:3px 2px;
+	font-size:12px;
+	height:26px;
+	width:175px;
+	margin:0px 0 0 10px;
+}
+div.admin-select-block div {
+	display:block;
+	float:left;
+}
+div#email_templates-admin_index .ui-accordion .ui-accordion-header {
+	z-index:0;
+}
+div#email_templates-admin_index .ui-accordion .ui-state-active {
+	background:#77b931;
+}
+div#email_templates-admin_index .ui-accordion .ui-state-active a {
+	color:white;
+}
+form#TranslationManageForm table.list td,form#TranslationManageForm table.list th {
+	text-align:left;
+}
+form#TranslationManageForm table.list div.textarea textarea {
+	margin:0px;
+}
+h4.language-text-block {
+	font-size:16px;
+	color:#1FA6C8;
+	padding:10px 0px 10px 20px;
+}
+div.submit-update-block {
+	margin:10px 0px 10px 500px;
+}
+form.setting-add-form .form-block {
+	margin:0px 0px 10px 0px;
+}
+form.normal div.radio input#AffiliateRequestIsApproved0 {
+	margin:0px 5px 0px 200px;
+}
+div#affiliate_requests-admin_add span.label-content-radio {
+	margin:4px 0px 0px 25px;
+}
+form#AffiliateTypeEditForm div.select select {
+	margin:0px;
+	width:164px;
+}
+div#currencies-admin_edit table.list th,div#currencies-admin_edit table.list td {
+	text-align:left;
+}
+div.admin-content div.language-block {
+	width:95px;
+}
+h3.ui-accordion-header span {
+	font-weight:normal;
+	font-size:11px;
+}
+.ui-state-default .ui-icon {
+	background:url("../img/admin-sprite.png") no-repeat scroll 6px -10308px transparent;
+}
+div.outer-image-settings span.help {
+	margin:5px 0px 10px 178px;
+}
+div.translation-index-block {
+	margin:15px 0px 0px 0px;
+}
+div.translation-left-block {
+	float:left;
+	width:316px;
+	margin:0px 20px 0px 57px;
+}
+div.translation-right-block {
+	float:left;
+	width:344px;
+}
+div.translation-index-block span.info {
+	margin:0px;
+}
+div.translation-index-block div.submit {
+	margin:0px 30px 0px 0px;
+}
+div.translation-right-block div.submit input[disabled="disabled"] {
+	color:#9f9f9f;
+	cursor:default !important;
+}
+div.master-page-info {
+	margin:0px 10px 10px 10px;
+	padding:10px 0px 10px 38px;
+}
+div.admin-content form.normal {
+	padding:0px 0px 0px 0px;
+	width:100%;
+}
+div.admin-content .forgot-info,div.admin-content .info-details {
+	margin:10px 0px;
+}
+div.admin-content table.list {
+	margin:9px 0px 0px 0px;
+}
+div.admin-content table.list div.text input,div.admin-content table.list div.textarea textarea {
+	margin:0px;
+}
+div.admin-content dl.list dt {
+	width:25%;
+}
+div.admin-content dl.list dd {
+	width:70%;
+}
+div.admin-content dl.edit-translation {
+	width:176px;
+}
+div.admin-content dl.edit-translation dt {
+	width:100px;
+}
+div.admin-content dl.edit-translation dd {
+	width:47px;
+}
+form#TransactionAdminIndexForm div.input label {
+	width:31px;
+}
+form#TransactionAdminIndexForm div.text {
+	width:176px;
+}
+form#TransactionAdminIndexForm div.text input {
+	margin:9px 0px 0px 54px;
+	width:117px;
+}
+form.normal table.list div.checkbox {
+	padding:5px 0px;
+}
+ul.transfer-list li {
+	float:left;
+	margin:13px 3px 0px 3px;
+	font-size:11px;
+}
+ul.transfer-list li a {
+	text-decoration:underline;
+}
+ul.transfer-list li a:hover {
+	text-decoration:none;
+}
+ul.transfer-list li.transfer-amount {
+	font-weight:normal;
+	color:#7F7F7F;
+}
+div#pages-refer_a_friend h3 {
+	padding:1% 0px 0.8% 0px;
+}
+div.status-info span {
+	float:left;
+	display:block;
+	padding:1px;
+}
+div#mail_chimp_lists-admin_index table.list div.text {
+	padding:0px;
+	margin:0px;
+}
+div#mail_chimp_lists-admin_index table.list div.text input {
+	margin:0px 5px 0px 0px;
+}
+div#mail_chimp_lists-admin_index div.submit-block {
+	margin:10px 0px 10px 283px;
+}
+div.user-info-block {
+	padding:0px 0px 5px 0px;
+}
+div.paypal-status-info span,div.user-status-block span {
+	float:right;
+	padding:1px 5px;
+	-moz-border-radius:3px;
+	-khtml-border-radius:3px;
+	-o-border-radius:3px;
+	font-size:9px;
+	line-height:13px;
+	margin:2px;
+}
+p.user-img-right span {
+	float:right;
+	padding:1px 5px;
+	-moz-border-radius:3px;
+	-khtml-border-radius:3px;
+	-o-border-radius:3px;
+	font-size:9px;
+	line-height:13px;
+	margin:2px;
+}
+div.paypal-status-info span {
+	float:left;
+	font-size:10px;
+	line-height:8px;
+	margin:1px 3px 1px 0;
+}
+span.paypal {
+	background:#2c699f;
+	color:white;
+}
+p.user-img-left {
+	float:left;
+}
+p.user-img-right {
+	float:right;
+}
+p.user-img-right span.affiliate {
+	background:#9bc937;
+	color:white;
+}
+p.user-img-right span.active-city {
+	background:#1E9B0A;
+	color:white;
+}
+p.user-img-right span.admin {
+	background:#fff830;
+	color:#4d4d4d;
+}
+div.user-status-block span {
+	float:left;
+	display:block;
+	width:16px;
+	height:16px;
+	text-indent:-3000em;
+	padding:0px;
+}
+div.user-status-block span.flags {
+	height:auto;
+	margin:5px 3px;
+	width:19px;
+	height:11px;
+}
+div.user-status-block span.iphone {
+	background:url(../img/common-sprite.png) no-repeat -1px -9184px;
+	width:9px;
+}
+div.user-status-block span.open_id {
+	background:url(../img/common-sprite.png) no-repeat 0px -3781px;
+}
+div.user-status-block span.gmail {
+	background:url(../img/common-sprite.png) no-repeat 0px -9309px;
+}
+div.user-status-block span.yahoo {
+	background:url(../img/common-sprite.png) no-repeat 0px -9085px;
+}
+div.user-status-block span.facebook {
+	background:url(../img/common-sprite.png) no-repeat 0px -8070px;
+}
+div.user-status-block span.twitter {
+	background:url(../img/common-sprite.png) no-repeat 0px -8267px;
+}
+div.user-status-block span.android {
+	background:url("../img/common-sprite.png") no-repeat scroll left -9136px transparent;
+}
+span.foursquare {
+	background:url("../img/common-sprite.png") no-repeat 0px -9239px;
+}
+div.user-status-block span.email {
+	text-indent:1px;
+	height:auto;
+	width:auto;
+	padding:1px 0px 3px 21px;
+}
+div.user-status-block span.email-comfirmed {
+	color:#1fa6c8;
+	background:url(../img/common-sprite.png) no-repeat left -8984px;
+}
+div.user-status-block span.email-not-comfirmed {
+	background:url(../img/common-sprite.png) no-repeat left -9040px;
+	color:#f88ec7;
+}
+table.list tr.inactive-record td {
+	color:#b7b7b7;
+	background:#FBF9FA;
+}
+table.list tr.inactive-record td a {
+	color:#b7b7b7;
+}
+table.list tr.inactive-record td span.email-not-comfirmed {
+	color:#b7b7b7;
+	background:url(../img/common-sprite.png) no-repeat left -9042px;
+}
+div.chartiy-submit-block {
+	margin:15px 0px 15px 0px;
+}
+form.search-form div.autocompleteblock ul.ui-autocomplete {
+	left:85px !important;
+	top:36px !important;
+}
+form#CharityPayToUserForm div.textarea textarea,form#CharityPayToUserForm div.text input,form#CharityPayToUserForm div.select select {
+	margin:0px;
+}
+form#AffiliateCashWithdrawalPayToUserForm div.select select,form#AffiliateCashWithdrawalPayToUserForm div.textarea textarea {
+	margin:0px;
+}
+form#UserCashWithdrawalPayToUserForm div.textarea textarea,form#UserCashWithdrawalPayToUserForm div.select select {
+	margin:0px;
+}
+div.pay-submit-block {
+	margin:15px 0px 0px 0px;
+}
+div.test-mode-content {
+	background:url(../img/text-separator.png) repeat-y 441px top;
+}
+div#companies-admin_merchant_stats div.chart-half-section {
+	width:48.8%;
+	margin:4px 5px;
+}
+div#companies-admin_merchant_stats div.chart-half-section div.highcharts-container {
+	text-align:center !important;
+	width:99% !important;
+}
+div#deals-admin_deal_stats table.list {
+	width:98.4%;
+	margin:9px auto;
+}
+div#companies-admin_merchant_stats table.list {
+	width:99%;
+	margin:9px auto;
+}
+form#DealUpdateForm table.list td.select,form#DealUpdateForm table.list th.select {
+	width:38px;
+}
+table.list td.admin-select,table.list th.admin-select {
+	width: 50px;
+}
+/* admin stats style is begin */
+h2.chart-dashboard-title {
+	position:relative;
+}
+h2.chart-dashboard-title span.up-arrow,h2.chart-dashboard-title span.down-arrow {
+	cursor:pointer;
+	display:block;
+	height:36px;
+	width:98%;
+	margin:1px 10px;
+	left:0px;
+	top:0px;
+	position:absolute;
+}
+#companies-dashboard h2.chart-dashboard-title span {
+	margin:2px 10px 1px 10px;
+}
+h2.chart-dashboard-title span.up-arrow {
+	background:url("../img/admin-sprite.png") no-repeat scroll right -12976px transparent;
+	text-indent:-9999em;
+}
+h2.chart-dashboard-title span.down-arrow {
+	background:transparent url(../img/admin-sprite.png) no-repeat right -13235px;
+}
+div.admin-stats-block {
+	margin:0px 0px 5px 0px;
+	border:1px solid red;
+}
+div.dashboard-center-block .language-form div.select select {
+	width: 102px;
+}
+/* filter list style is begin */
+ul.filter-list li {
+	float:left;
+	margin:4px 5px 6px;
+	cursor:pointer;
+}
+ul.filter-list a {
+	padding:1px 3px;
+	-moz-border-radius:3px;
+	-khtml-border-radius:3px;
+	-o-border-radius:3px;
+	display:block;
+	color:white;
+	font-size:11px;
+	font-weight:bold;
+}
+ul.filter-list a:hover {
+	color:#EFF0F2;
+}
+li.filter-admin a:hover,li.filter-all a:hover {
+	color:#3F3E3E;
+}
+.filter-active a {
+	background:#0E910E;
+}
+.filter-inactive a {
+	background:#DF5958;
+}
+.filter-openid a {
+	background:#AAA8A5;
+}
+.filter-facebook a {
+	background:#3B5998;
+}
+.filter-twitte a {
+	background:#53D4FF;
+}
+.filter-foursquare a {
+	background:#AC379B;
+}
+.filter-gmail a {
+	background:#2A91C9;
+}
+.filter-yahoo a {
+	background:#7B0099;
+}
+.filter-iphone a {
+	background:#727170;
+}
+.filter-affiliate a {
+	background:#9BC937;
+}
+li.all a {
+	background:white;
+	border:1px solid #dedede;
+	color:black;
+}
+li.all a:hover {
+	color:#333;
+}
+li.gifted a {
+	background:#C575D2;
+}
+li.received a {
+	background:#00B0C7;
+}
+li.filter-admin a {
+	background:#FFF830;
+	color:black;
+}
+.filter-android a {
+	background:#65AD89;
+}
+.filter-giftcard a {
+	background:#B56414;
+	background:#B56414;
+}
+.filter-online a {
+	background:#24D624;
+}
+.filter-offline a {
+	background:#676867;
+}
+li.filter-all a {
+	border:1px solid #dedede;
+	color:black;
+}
+div.filter-list-info {
+	margin:85px 10px 0px 0px;
+}
+div.language-block {
+	margin: 1px 10px 0px 0px;
+}
+/* Language form styles */
+.language-form div.input {
+	float:left;
+}
+.language-form label {
+	padding:0 10px 0 0;
+	color:#333;
+	font-weight:normal;
+	font-size:12px;
+}
+.language-form div.select select {
+	width:90px;
+}
+.language-form div.select select:hover {
+	border: 1px solid #dedede;
+}
+/** search form styles */
+form.search-form {
+	padding:10px 0px;
+}
+form.search-form div.input,form.search-form div.select {
+	float:left;
+	min-height:35px;
+	margin:0px;
+	padding:0px;
+	width:225px;
+}
+form.search-form div.date {
+	width:250px;
+}
+form.search-form div.submit {
+	float:left;
+	width:auto;
+	margin:3px 5px 0px 0px;
+}
+form.search-form div.submit input {
+	margin:0px 5px;
+	float:left;
+	padding:3px 5px;
+	font-size:12px;
+	height:28px;
+}
+form.search-form div.select select,form.search-form div.text input {
+	width:167px;
+	margin:9px 0px 0px 78px;
+	height:17px;
+	padding:4px 0px 4px 0px;
+	font-family:Verdana,Geneva,sans-serif;
+}
+div.admin-inner-top form.search-form div.select {
+	width:180px;
+}
+div.admin-inner-top form.search-form div.select select {
+	height:26px;
+	margin-top:9px;
+}
+form.search-form div.date label+select {
+	width:100px;
+}
+form.search-form div.select select,form.search-form div.date label+select {
+	margin:0px;
+}
+form.search-form div.input label {
+	width:57px;
+	position:absolute;
+	margin:12px 0px 0px 0px;
+	font-weight:normal;
+	text-align:right;
+	color:#7f7f7f;
+	font-size:12px;
+}
+form.search-form div.date-time label {
+	text-align:left;
+}
+form.search-form div.date select#Transaction_fromDay,form.search-form div.date select#Transaction_toDay {
+	width:40px;
+}
+form.search-form div.date select#Transaction_fromYear,form.search-form div.date select#Transaction_toYear {
+	width:55px;
+}
+form.search-form div.text {
+	width:255px;
+	margin:0px 0px 0px 8px;
+}
+form.search-form div.mapblock-info {
+	float:left;
+}
+form.search-form div.submit-block {
+	margin:0px 0px 5px 0px;
+}
+div.admin-language-block span.small-info {
+	float:left;
+	margin:2px 0 0 10px;
+}
+div.admin-content div.language-block {
+	width:95px;
+	margin:1px 1px 0 0;
+}
+div.admin-content div.language-block+div.language-block {
+	width:170px;
+}
+div.attachment-delete-outer-block {
+	padding-bottom:10px;
+}
+div.attachment-delete-outer-block ul li {
+	border:1px solid #dedede;
+	float:left;
+	margin:5px;
+	padding:5px;
+	position:relative;
+	width:162px;
+}
+div.attachment-delete-outer-block ul li div.checkbox input {
+	margin:0;
+}
+div.attachment-delete-outer-block ul li span.delete-photo {
+	display:none;
+	font-size:11px;
+	position:absolute;
+	left:35px;
+	top:14px;
+	color:black;
+}
+div.attachment-delete-outer-block ul li:hover span.delete-photo {
+	display:block;
+}
+div.credentials-right a {
+	display:block;
+	font-size:12px;
+	font-weight:700;
+	height:38px;
+	padding:1px 0 0 42px;
+}
+div.credentials-left {
+	background:url("../img/credenitals.png") repeat-x scroll left top transparent;
+	border:1px solid #cccccc;
+	float:left;
+	height:36px;
+	margin:5px 0 0;
+	padding:7px;
+	width:165px;
+}
+div.credentials-right-block {
+	float:left;
+	width: auto;
+}
+/* attachment block style start*/
+/* attachment block style end */
+h3.error-log-title {
+	padding:10px 0px;
+}
+div.clear-log textarea {
+	width:95%;
+	border:1px solid #dedede;
+	margin:10px 0px;
+	padding:10px;
+	font-size:12px;
+}
+div.clear-log textarea:hover {
+	border:1px solid #cccccc;
+}
+dl.admin-list {
+	width:100%;
+}
+dl.admin-list dt {
+	width:20%;
+	padding:0.8em;
+}
+dl.admin-list dd {
+	width:75%;
+	padding:0.8em;
+}
+div.mapinfo-right h3 {
+	padding-top: 0;
+}
+ul.tipped li.paid span.small-info{
+    position:absolute;
+    top:-19px;
+}
+div.item-links{
+    margin:0px 0px 0px 31px;
+}
+div.admin-content ul.open {
+    left:-74px;
+}
+div.admin-content ul.refunded {
+    left:31px;
+}
+div.admin-content ul.canceled {
+    left: 42px;
+}

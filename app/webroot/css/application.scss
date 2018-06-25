@@ -1,0 +1,27 @@
+/* $Id: style.css 187 2009-02-27 23:39:20Z rajesh_04ag02 $ */
+/** header style is begin */
+/* Font Variables */
+$base-font : "trebuchet MS", Arial, Helvetica, sans-serif;
+$chart-font : Verdana, Geneva, sans-serif;
+$style-font : Georgia, Times, “Times New Roman”, serif;
+$common-font : Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+/* Color Variables */
+$base-pink: #F7437A;
+$base-blue: #24BAA3;
+$base-green: #77B931;
+$base-white: #FFFFFF;
+$base-black: #000000;
+$base-red: #FF0000;
+$margin: 16px;
+
+/* round cornner mixin */
+@mixin rounded($radius: 10px) {
+ -webkit-border-radius: $radius;
+ -moz-border-radius: $radius;
+ -o-border-radius:$radius;
+ -ms-border-radius: $radius;
+ -khtml-border-radius: $radius;
+ border-radius: $radius; 
+}
+

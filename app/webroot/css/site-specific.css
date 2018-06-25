@@ -1,0 +1,470 @@
+/* chart style is begin */
+ul.flow-chart li a,ul.pass-chart li a {
+	color:#FFFFFF;
+	display:block;
+	font-size:11px;
+	padding:3px 5px 4px 3px;
+	font-weight:bold;
+	font-family:verdana;
+}
+ul.flow-chart li a:hover,ul.pass-chart li a:hover {
+	text-decoration:underline;
+}
+ul.flow-chart {
+	padding:50px 0px 32px 3px;
+	height:73px;
+}
+ul.flow-chart>li {
+	float:left;
+}
+ul.pause,ul.open {
+	position:relative;
+}
+div.admin-content ul.flow-chart {
+	overflow:hidden;
+}
+li.open {
+	position:relative;
+}
+ul.canceled,ul.rejected-link {
+	position:relative;
+}
+div.newitem-top-block {
+	position:relative;
+}
+ul.refunded,ul.tipped,ul.draft {
+	position:relative;
+}
+li.upcoming1 {
+	position:relative;
+}
+ul.pending,ul.rejected-link {
+	position:relative;
+}
+li.rejected {
+	position:relative;
+}
+ul.closed-link,ul.closed-link1,ul.paid-company,ul.paid-company1 {
+	position:relative;
+}
+ul.pending {
+	left:88px;
+	top:-86px;
+}
+ul.rejected-link {
+	left:160px;
+	top:-50px;
+}
+ul.rejected-link li.rejected {
+    left: -137px;
+    top: -41px;
+}
+li.tipped {
+	left:14px;
+	top:-60px;
+}
+ul.closed-link {
+	left:125px;
+	top:-28px;
+}
+ul.closed-link1 {
+	left:25px;
+	top:-1px;
+}
+ul.paid-company {
+	left:98px;
+	top:-23px;
+}
+ul.paid-company1 {
+	left:158px;
+	top:-23px;
+}
+li.upcoming1 {
+	left:-29px;
+	top:-74px;
+	display:none;
+}
+ul.draft {
+    left: 108px;
+    top: -244px;
+}
+.hidden-link {
+	display:none;
+}
+ul.item-chart span.new-item span.new-item-r {
+	color:#333;
+}
+ul.item-chart>li {
+	float:left;
+}
+ul.draft-list {
+	float:left;
+	margin:0px 0px 0px 16px;
+}
+ul.pass-chart span.used {
+	height:23px;
+	display:block;
+	float:left;
+}
+span.refunded,span.expired,span.canceled,span.paid,span.closed,span.tipped,span.open,span.rejected,span.upcoming,span.new-item,span.draft-link,span.pending-approval {
+	height:23px;
+	display:block;
+	float:left;
+}
+span.new-item span.new-item-r,span.refunded a,span.expired a,span.canceled a,span.paid a,span.closed a,span.tipped a,span.open a,span.rejected a,span.upcoming a,span.new-item a,span.draft-link a,span.pending-approval a {
+	display:block;
+}
+span.new-item {
+	background:url(../img/site-specific-sprite.png) no-repeat left -2px;
+	padding:0px 0px 0px 3px;
+	margin:10px 10px 0px 0px;
+}
+span.new-item span.new-item-r {
+	background:url(../img/site-specific-sprite.png) no-repeat right -28px;
+	padding:3px 5px 10px 4px;
+	display:block;
+	height:20px;
+	font-weight:bold;
+}
+span.refunded,span.expired,span.canceled,span.paid,span.closed,span.tipped,span.pause,span.open,span.draft-link,span.pending-approval,span.upcoming,span.rejected {
+	padding:0px 0px 0px 3px;
+}
+span.draft-link {
+	background:url(../img/site-specific-sprite.png) no-repeat left -581px;
+	padding:0px 0px 0px 3px;
+}
+span.draft-link a {
+	background:url(../img/site-specific-sprite.png) no-repeat right -608px;
+}
+span.pending-approval {
+	background:url(../img/site-specific-sprite.png) no-repeat left -369px;
+	padding:0px 0px 0px 3px;
+}
+span.pending-approval a {
+	background:url(../img/site-specific-sprite.png) no-repeat right -395px;
+}
+span.upcoming {
+	background:url(../img/site-specific-sprite.png) no-repeat left -422px;
+}
+span.upcoming a {
+	background:url(../img/site-specific-sprite.png) no-repeat right -448px;
+	display:block;
+}
+span.rejected {
+	background:url(../img/site-specific-sprite.png) no-repeat left -474px;
+}
+span.rejected a {
+	background:url(../img/site-specific-sprite.png) no-repeat right -500px;
+}
+span.open {
+	background:url(../img/site-specific-sprite.png) no-repeat left -265px;
+}
+span.open a {
+	background:url(../img/site-specific-sprite.png) no-repeat right -290px;
+}
+span.pause {
+	background:url(../img/site-specific-sprite.png) no-repeat left -581px;
+}
+span.pause a {
+	background:url(../img/site-specific-sprite.png) no-repeat right -608px;
+}
+span.tipped {
+	background:url(../img/site-specific-sprite.png) no-repeat left -161px;
+}
+span.tipped a {
+	background:url(../img/site-specific-sprite.png) no-repeat right -187px;
+}
+span.closed {
+	background:url(../img/site-specific-sprite.png) no-repeat left -108px;
+}
+span.closed a {
+	background:url(../img/site-specific-sprite.png) no-repeat right -134px;
+	display:block;
+}
+span.paid {
+	background:url(../img/site-specific-sprite.png) no-repeat left -315px;
+}
+span.paid a {
+	background:url(../img/site-specific-sprite.png) no-repeat right -341px;
+}
+span.canceled {
+	background:url(../img/site-specific-sprite.png) no-repeat left -54px;
+}
+span.canceled a {
+	background:url(../img/site-specific-sprite.png) no-repeat right -81px;
+}
+span.expired {
+	background:url(../img/site-specific-sprite.png) no-repeat left -214px;
+}
+span.expired a {
+	background:url(../img/site-specific-sprite.png) no-repeat right -240px;
+}
+span.refunded {
+	background:url(../img/site-specific-sprite.png) no-repeat left -527px;
+}
+span.refunded a {
+	background:url(../img/site-specific-sprite.png) no-repeat right -554px;
+}
+div.newitem-block {
+	background:url(../img/site-specific-sprite.png) no-repeat 66px -840px;
+	padding:0px 40px 0px 0px;
+}
+div.newitem-bottom-block {
+	background:url(../img/site-specific-sprite.png) no-repeat 138px -644px;
+	padding:0px 0px 40px 0px;
+}
+div.pass-inner-block {
+	background:url("../img/site-specific-sprite.png") no-repeat scroll 88px -1807px transparent;
+}
+*+html div.newitem-bottom-block {
+	background:url(../img/site-specific-sprite.png) no-repeat 138px -644px;
+}
+div.newitem-top-block {
+	background:url(../img/site-specific-sprite.png) no-repeat 29px -1057px;
+	top:-1px;
+}
+div.pending-block {
+	background:url(../img/site-specific-sprite.png) no-repeat 150px -1004px;
+	padding:0px 47px 0px 0px;
+	height:28px;
+}
+div.open-block {
+	background:url(../img/site-specific-sprite.png) no-repeat 68px -925px;
+	padding:0px 52px 0px 0px;
+	height:28px;
+}
+div.open-top-block {
+	background:url(../img/site-specific-sprite.png) no-repeat 76px -2131px;
+	padding:23px 0px 0px 0px;
+}
+div.open-top1-block {
+	background:url(../img/site-specific-sprite.png) no-repeat 209px -1254px;
+}
+div.open-bottom-block {
+	background:url(../img/site-specific-sprite.png) no-repeat 52px -1172px;
+	height:60px;
+}
+div.newitem-reject-block {
+	padding:10px 0px 0px 0px;
+	background:url(../img/arrow2.png) no-repeat 63px -11px;
+}
+div.pending-top-block {
+	background:url(../img/site-specific-sprite.png) no-repeat 58px -675px;
+	padding: 22px 0px 0px 0px;
+}
+div.pending-bottom-block {
+	/*background:url(../img/site-specific-sprite.png) no-repeat 127px -721px;
+	*/
+	height:72px;
+}
+li.draft {
+	background:url(../img/site-specific-sprite.png) no-repeat 68px -884px;
+}
+ul.merchant-chart li.draft {
+	background:none;
+}
+ul.rejected-link {
+	background:url(../img/site-specific-sprite.png) no-repeat 60px -1383px;
+}
+ul.merchant-chart ul.rejected-link {
+	background:none;
+}
+div.tipped1-block {
+	background:url(../img/site-specific-sprite.png) no-repeat 81px -10px;
+	height:30px;
+	padding:0px 30px 0px 0px;
+	float:left;
+}
+li.expired,li.canceled {
+	background:url(../img/site-specific-sprite.png) no-repeat left top;
+}
+ul.refunded,ul.tipped {
+	left:48px;
+	top:-103px;
+}
+ul.tipped{
+  left: -26px;
+}
+ul.refunded {
+  left: 9px;
+    top:-84px;
+}
+ul.pass-chart span.used {
+	background:url("../img/site-specific-sprite.png") no-repeat scroll left -1941px transparent;
+	padding:0px 0px 0px 3px;
+}
+ul.pass-chart span.used a {
+	background:url("../img/site-specific-sprite.png") no-repeat scroll right -1973px transparent;
+	color:#333;
+}
+ul.canceled {
+    left:20px;
+    top: -64px;
+}
+ul.canceled-block {
+	left:115px;
+	top:-116px;
+}
+ul.refunded>li {
+	background:url(../img/site-specific-sprite.png) no-repeat 0 -1004px;
+	float:left;
+	padding:0px 0px 0px 44px;
+}
+ul.tipped>li {
+	background:url(../img/site-specific-sprite.png) no-repeat 0 -847px;
+	float:left;
+	padding:0px 0px 0px 22px;
+}
+ul.refunded li.expired,ul.tipped li.tipped1 {
+	background:none;
+	padding:0px;
+}
+li.open {
+	left:18px;
+	top:-25px;
+}
+li.open1 {
+	background:url(../img/site-specific-sprite.png) no-repeat 209px -1254px;
+	width:450px;
+}
+ul.draft>li {
+	float:left;
+	padding:0px 125px 0px 0px;
+}
+ul.open {
+    left: -95px;
+    top: 0;
+}
+ul.open1 {
+	top:-43px;
+}
+ul.pause {
+	left:-8px;
+	top:-19px;
+}
+ul.tipped-block {
+	top:-144px;
+	left:76px;
+}
+ul.tipped-block li.closed {
+	background:none;
+	padding:0px;
+}
+ul.refunded-block {
+	top:-124px;
+}
+ul.canceled-block {
+	left:115px;
+	top:-107px;
+}
+ul.draft-block {
+	top:-289px;
+}
+div.pause-top-block {
+	height:44px;
+}
+div.pause-bottom-block {
+	background:url(../img/site-specific-sprite.png) no-repeat 16px -654px;
+	height:44px;
+}
+div.pause-top-block {
+	background:url(../img/site-specific-sprite.png) no-repeat 56px -743px;
+}
+ul.rejected-link>li {
+	float:left;
+}
+div.pass-bottom-block {
+	background:url("../img/site-specific-sprite.png") no-repeat scroll 43px -1595px transparent;
+	padding:41px 0;
+}
+div.pass-top-block {
+	background:url("../img/site-specific-sprite.png") no-repeat scroll 43px -1648px transparent;
+}
+ul.pass-cancel li.refunded,ul.expired-block li.closed {
+	position:relative;
+}
+ul.pass-cancel {
+	position:relative;
+}
+ul.pass-cancel li.canceled,ul.pass-cancel li.open {
+	position:relative;
+}
+ul.pass-cancel ul.expired-block {
+	position:relative;
+}
+ul.expired-block li.expired {
+	position:relative;
+}
+ul.pass-chart {
+	overflow:hidden;
+	height:118px;
+}
+ul.pass-cancel li.refunded,ul.expired-block li.closed {
+	position:relative;
+}
+ul.pass-cancel {
+	position:relative;
+}
+ul.pass-cancel li.canceled,ul.pass-cancel li.open {
+	position:relative;
+}
+ul.pass-cancel ul.expired-block {
+	position:relative;
+}
+ul.expired-block li.expired {
+	position:relative;
+}
+ul.pass-canceled {
+	left:-15px;
+	position:relative;
+	top:-34px;
+}
+ul.pass-chart ul.expired-block,ul.pass-chart ul.pass-cancel {
+	position:static;
+}
+ul.pass-available {
+	left:145px;
+	position:relative;
+	top: -37px;
+}
+/* pass start style is begin */
+*+html ul.pass-available {
+	left:58px;
+}
+ul.pass-refunded {
+	left:71px;
+	position:relative;
+	top:-109px;
+	width:128px;
+}
+*+html ul.pass-refunded {
+	left:-5px;
+	top:-106px;
+}
+ul.pass-canceled li.canceled {
+	background:none;
+}
+ul.expired-block li.expired {
+	left:-25px;
+	top:-32px;
+	background:none;
+}
+ul.expired-block li.closed {
+	left:71px;
+	top:20px;
+}
+*+html ul.expired-block li.closed {
+	top:27px;
+}
+*+html ul.draft {
+	top:-248px;
+}
+div.pass-bottom-block {
+	padding:41px 0px 41px 0px;
+}
+.all-item-links {
+	position:absolute;
+	right:10px;
+	top: 160px;
+}
+/* pass start style is begin */
